@@ -1,0 +1,86 @@
+x=1
+if 14532%x==0:
+    print(f'{x}는 약수 입니다')
+
+x=x+1    
+if 14532%x==0:
+    print(f'{x}는 약수 입니다')
+
+x=x+1
+if 14532%x==0:
+    print(f'{x}는 약수 입니다')
+#1~14532의 숫자를 준비해서 상자에 담는다
+#=> range(1,14532)
+    
+#1부터 숫자를 하나씩 꺼내서
+# for x in range(1,14532)
+
+
+#14532를 나눠본다.
+for x in range(1,14533):
+    if 14532%x==0:
+        print(f'{x}는 14532의 약수')
+
+n = input("자연수입력:")
+n = int(n) #n이 가리키는 문자열을 정수로 바꿈
+
+for x in range(1,14533):
+    if 14532%x==0:
+        print(f'{x}는 14532의 약수')
+
+n = input("자연수입력:")
+n = int(n) #n이 가리키는 문자열을 정수로 바꿈
+
+for x in range(1,n+1):
+    if n%x==0:
+        print(f'{x}는 14532의 약수')
+
+#입력으로 받은 자연수의 약수를 출력하는
+#프로그램을 작성해 봅시다.
+
+# 14532의 약수 :
+
+a = input("첫번째 자연수입력:")
+a = int(a) 
+
+b = input("두번째 자연수입력:")
+b = int(b)
+
+#12와 20의 공약수 :1,2,4
+for x in range(1,n+1):
+    if n%x==0:
+      print(f'{x}는 {n}의 약수')
+      
+a=12
+b=20
+
+for x in range(1,a+1):
+
+   if a%x==0:
+    if b%x==0:
+        print(x)
+
+a=12
+b=20
+for x in range(1,a+1):
+    if a%x==0:
+        if b%x==0:
+            if c<x:
+                c=x
+
+a=231
+b=572
+
+for x in range(1, a+1):
+    if a%x==0:
+       if b%x==0:
+#           print(x) #공약수를 찾았을 때
+           c=x;
+
+print(c)
+
+# 234532를 455로 나누었을 때
+# 나머지를 구합니다.
+#단 , %를 사용하지 않습니다.
+
+        
